@@ -3,6 +3,7 @@ let listaDeAmigos = [];
 resultado = document.getElementById("resultado")
 listaAmigosID = document.getElementById("listaAmigos")
 
+
 function adicionarAmigo(){
     let addAmigo = document.querySelector("input").value;
     if (document.querySelector("input").value == "") {
